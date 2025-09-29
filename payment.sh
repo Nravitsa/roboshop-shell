@@ -16,4 +16,4 @@ pip3 install -r requirements.txt
 systemctl daemon-reload
 
 systemctl enable payment
-systemctl start paymen t
+systemctl start payment
