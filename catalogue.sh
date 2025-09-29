@@ -23,4 +23,4 @@ cp Catalogue_mongo_schema.repo /etc/yum.repos.d/mongo.repo
 
 dnf install mongodb-mongosh -y
 
-mongosh --host mongobd-dev.tusharbytes.com </app/db/master-data.js
+mongosh --host mongodb-dev.tusharbytes.com </app/db/master-data.js
