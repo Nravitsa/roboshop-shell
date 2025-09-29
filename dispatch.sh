@@ -2,6 +2,7 @@ dnf install golang -y
 cp dispatch.service /etc/systemd/system/dispatch.service
 useradd roboshop
 
+rm -rm /app
 mkdir /app
 
 curl -L -o /tmp/dispatch.zip https://roboshop-artifacts.s3.amazonaws.com/dispatch-v3.zip
