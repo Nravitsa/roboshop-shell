@@ -15,7 +15,7 @@ app_pre_setup() {
   cd /app
 }
 
-nidejs() {
+nodejs() {
 
   dnf module disable nodejs -y
   dnf module enable nodejs:20 -y
